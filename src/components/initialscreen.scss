@@ -1,0 +1,104 @@
+
+
+.editor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem auto;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    
+    h1{
+        margin-bottom: 2rem;
+        font-family: 'Silkscreen', cursive;
+        color: rgb(224, 222, 228);
+        font-size: 2.2rem;
+
+    }
+
+    p{
+        color: rgb(182, 174, 174);
+    }
+
+    .options{
+    
+        .button-div{
+            button{
+                margin: 2rem 0.4rem;
+                width: 6rem;
+                outline: none;
+                padding: 1rem;
+                color: black;
+                border: 1px solid white;
+                border-radius: 0.5rem;
+                cursor: pointer;
+                font-size: 1rem;
+                transition: 0.3s;
+
+
+                &:hover{
+                    background: transparent;
+                    color: whitesmoke;
+                    filter: brightness(150%);
+                }
+            }
+        }
+
+        .option{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 2rem auto;
+
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+            
+            input{
+                margin: 1rem;
+                height: 6rem;
+                width: 6rem;
+                padding: 1rem;
+                color: white;
+                border: 1px solid white;
+                background: transparent;
+                border-radius: 0.5rem;
+                transition: 0.5s;
+                font-size: 2rem;
+                text-align: center;
+            }
+        }
+
+        h3{
+            margin: 5rem auto;
+            color: rgb(125, 58, 58);
+        }
+
+        .start-drawing{
+            display: flex;
+            margin: 5rem auto;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            width: 10rem;
+            outline: none;
+            padding: 1rem;
+            color: whitesmoke;
+            background: rgb(89, 72, 133);
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: 0.3s;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+
+            &:hover{
+                filter: brightness(140%);
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.sidebar{
+    position: fixed;
+    right: 3rem;
+    bottom: 0;
+    
+    
+    .icons{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .icon{
+            transition: all 0.6s ease;
+            cursor: pointer;
+            color: white;
+            
+            &:hover{
+                transform: translateY(-10px);
+                color: #26b7f1;
+            }
+        }
+
+        .vl{
+            border-left: 2px solid white;
+            height: 6rem;
+            margin-left: 0.8rem;
+            
+        }
+    }
+
+}
+
+@media screen and (max-width: 840px){
+    .sidebar{
+        display: none;
+    }
+}
