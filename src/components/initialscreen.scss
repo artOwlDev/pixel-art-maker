@@ -102,3 +102,10 @@
         }
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .editor{
+        padding: 1rem;
+        text-align: center;
+    }
+}

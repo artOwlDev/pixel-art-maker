@@ -26,3 +26,19 @@
         }
     }
 }
+
+
+@media screen and (max-width: 1000px) {
+
+    .board-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pixels{
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+}
